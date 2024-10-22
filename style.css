@@ -11,10 +11,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagem_rota.jpg);
+    background-image: url(assets/imagem_rota.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-origin: padding-box;
     background-attachment: fixed; /* Para fixar o fundo */
     color: white;
 }
